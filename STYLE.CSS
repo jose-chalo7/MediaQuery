@@ -68,11 +68,17 @@ main {
     
 }
 
+.cards-section img{
+    width: 70px;
+    height: 90ps;
+    border: 5px solid #d6be9b;
+}
+
 
 .card {
     background-color: #1e0f53;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 50px;
     width: 30%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
