@@ -90,4 +90,12 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    
+
+    
+}
+
+footer img {
+    width: 30px;
+    height: 30ps;
 }
