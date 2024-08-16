@@ -109,3 +109,41 @@ footer img {
     width: 30px;
     height: 30ps;
 }
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .cards-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+
