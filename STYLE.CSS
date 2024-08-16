@@ -13,11 +13,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    color: #d6be9b;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #d6be9b;
+    color: #070219;
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
@@ -54,24 +55,31 @@ header nav ul li a {
 main {
     flex: 1;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #1e0f53;
     text-align: center;
 }
+
 
 .cards-section {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ebe9f4;
+    
 }
 
+
 .card {
-    background-color: #f4f4f4;
+    background-color: #1e0f53;
     padding: 20px;
     border-radius: 5px;
     width: 30%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.card h2{ 
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
