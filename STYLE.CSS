@@ -35,7 +35,11 @@ header .logo {
 header .logo img {
     width: 100px;
     height: 100px;
-    margin: 0 40px;
+    margin: 20px 20px;
+    border-radius: 50px;
+    border: 5px solid #470dcf;
+    
+    
 }
 
 header nav ul {
