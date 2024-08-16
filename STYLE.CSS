@@ -176,3 +176,30 @@ footer img {
         padding: 20px;
     }
 }
+
+/*Estilos para dispositivos Laptops*/
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    header {
+        padding: 15px 20px;
+    }
+    
+    header .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cards-section {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    footer {
+        padding: 20px 30px;
+    }
+}
