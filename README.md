@@ -35,6 +35,9 @@ Se han implementado media queries para optimizar la visualización en diferentes
 - **Tablets (601px - 900px)**: El diseño se adapta para pantallas medianas, manteniendo la legibilidad y organización del contenido.
 - **Laptops (901px - 1200px)**: El diseño se optimiza para pantallas más grandes, distribuyendo el contenido en un layout más amplio.
 
+     PRUEBAS DE MEDIA QUERY
+https://drive.google.com/drive/folders/14e96X7Yp8SKwGzlMg7DMzGPWcKz9VjOe?usp=sharing
+
 ## Cómo Ejecutar el Proyecto
 
 1. Clona el repositorio a tu máquina local.
