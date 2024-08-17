@@ -39,4 +39,4 @@ Se han implementado media queries para optimizar la visualización en diferentes
 
 1. Clona el repositorio a tu máquina local.
    ```bash
-   git clone 
+   git clone https://github.com/jose-chalo7/MediaQuery
