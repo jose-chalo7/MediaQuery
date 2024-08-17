@@ -110,13 +110,13 @@ footer img {
     height: 30ps;
 }
 
-/*Estilos para dispositivos moviles */
+/* Estilos para dispositivos móviles */
 @media (max-width: 600px) {
     header {
         flex-direction: column;
         text-align: center;
     }
-    
+
     header .logo img {
         width: 80px;
         height: 80px;
@@ -147,12 +147,12 @@ footer img {
     }
 }
 
-/*Estilos para dispositivos tablet */
+/* Estilos para dispositivos tablet */
 @media (min-width: 601px) and (max-width: 900px) {
     header {
-        padding: 10px 15px;
+        padding: 10px 20px;
     }
-    
+
     header .logo img {
         width: 90px;
         height: 90px;
@@ -177,22 +177,15 @@ footer img {
     }
 }
 
-/*Estilos para dispositivos Laptops*/
-
+/* Estilos para dispositivos laptops */
 @media (min-width: 901px) and (max-width: 1200px) {
     header {
         padding: 15px 20px;
-    }
-    
-    header .logo img {
-        width: 100px;
-        height: 100px;
     }
 
     .cards-section {
         flex-direction: row;
         justify-content: space-between;
-        padding: 20px;
     }
 
     .card {
